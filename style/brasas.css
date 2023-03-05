@@ -115,15 +115,25 @@ h2 {
             background-color: moccasin;
                    }
 
-                                    }
+                                  }
                                    
-
+ .menu-central {
+  background: salmon;
+                }
+  .menu-central a {
+   text-decoration: none;
+   color: black;
+   background: salmon;
+    border:none;
+                   }
+ .menu-central .col {
+  border: none;
+  }
+   
                     
 a {
      color: rgb(0, 0, 0);
      font-size: 20px;
-    padding: 75px;
-    line-height: 3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
