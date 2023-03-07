@@ -7,12 +7,12 @@ body {background: url(../imagenes/fondo1.png) rgba(255,255,255,0.3);background-b
 
 h1{
     color: rgb(0, 0, 0);
-  font-size: 80px;
+  font-size: 60px;
   line-height: 5,5;
   text-align: center;
   text-shadow: 2px 2px #f6f2f1;
   font-family: 'Mochiy Pop One', sans-serif;
-  margin-top: 150px;
+  margin-top: 25px;
     }
 
     @media (max-width: 480px) {
@@ -28,11 +28,12 @@ h1{
     width: 50%;
          }
     .animacion {
-        animation: girar 1s linear;
+      animation: girar 1s linear;
         margin-left: auto;
         margin-right: auto;
         display: block;
-      }
+    }
+    
       
       @keyframes girar {
         from {
@@ -48,7 +49,7 @@ h3 {
     text-align: center;
    color: rgb(0, 0, 0);
    font-family: 'Mochiy Pop One', sans-serif;
-   font-size: 40px;
+   font-size: 35px;
    text-shadow: 2px 2px #f6f2f1;
   }    
   @media (max-width: 480px) {
@@ -62,7 +63,7 @@ h3 {
     padding: 20px;
     font-weight: bold;
     color: rgb(2, 2, 2);
-    font-size: 20px;
+    font-size: 15px;
      } 
 
      @media (max-width: 480px) {
@@ -73,7 +74,7 @@ h3 {
 h4 {
    color: rgb(0, 0, 0);
    text-shadow: 2px 2px #f6f2f1;
-   font-size: 30px;
+   font-size: 20px;
     padding: 30px;
     font-family: 'Mochiy Pop One', sans-serif;
     text-align: center;
@@ -99,24 +100,6 @@ h2 {
        }  
                           }
 
-
- .class2 {
-       
-         padding: 10px 10px 10px 50px;
-         border-style: inset;
-         background-color: salmon;
-         color: rgb(34, 34, 33);
-         } 
-        
-    
-         @media (max-width:712px) {
-            .class2 { 
-        
-            background-color: moccasin;
-                   }
-
-                                  }
-                                   
  .menu-central {
   background: salmon;
                 }
@@ -177,11 +160,10 @@ a {
 
 
     .class12 {
-        
             border-style:inset ;
             margin: auto;
-            background-color: salmon;
-            color: black;
+            background-color: rgb(255, 166, 107);
+            color: var(--bs-nav-link-color);
               }    
               
      .class13 {
@@ -207,12 +189,12 @@ a {
                 text-align: center;
                }
 
-     iframe {  
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-            }  
+               iframe {  
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+               }  
 
     
 
@@ -220,33 +202,7 @@ a {
              color: rgb(255, 204, 0);
              text-align: center;
              }
-                 
-    
-             #main-header {
-                background: rgba(62, 62, 62, 0.774);
-                height: 17%;
-                top: 0%;
-                position: fixed;
-                width: 100%;
-                display: flex;
-                          }	
 
-                #main-header a {
-                    color: white;
-                  padding-top: 5px;
-                  padding: 5px 150px;
-                  margin: 10px 100px 10px 5px;
-                  font-size: 20px;
-                
-                                }
-            
-       
-        
-                .imagenheader {
-                    width: 6%;
-                    margin-right: 0%;
-                    position: fixed;
-                              }
                                    
                     li {
                        line-height: 1,5;
@@ -268,22 +224,8 @@ a {
     display: flex;
     flex-direction:row;
     width: 100%;
-   
-     }
-
-
-
- .grid-container { 
-
-      display: grid;
-      border: 2px solid black;
-      background-color: salmon;
-      border-style:  20px black;
-      grid-template-rows: 200px 400px 200px 400px;
-      grid-template-columns: 300px 150px;
-      align-items: center;   
-                 }
-
+      }
+      
  .class10 {
 
 text-align: center;
@@ -297,21 +239,22 @@ text-align: center;
     background-color: skyblue;
    
 }
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-   font-display: flex;
-   flex-direction: row;
-}
+
 .dropdown:hover .dropdown-child {
     display: block;
 }
 
 .col-sm-4{
-background-color: gainsboro;
+background-color: rgba(168, 162, 162, 0.473);
+         }
+.img-header-animacion {
+  width: 9%;
+                      }  
+                      .nav-item {
+                        font-size: 12px;}
 
-}
+                        .container-fluid {
+                          background-color: rgb(255, 166, 107);
 
-
+                        }
 
