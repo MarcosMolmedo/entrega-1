@@ -1,0 +1,328 @@
+body {
+  background: url(../imagenes/fondo1.png) rgba(255, 255, 255, 0.8);
+  background-blend-mode: color-burn;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  line-height: 5, 5;
+  text-align: center;
+  text-shadow: 2px 2px #f6f2f1;
+  font-family: 'Mochiy Pop One', sans-serif;
+  margin-top: 25px;
+ }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+/*animacion de la imagen principal de todos los html*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.animacion {
+  animation: girar 1s linear;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.quienessomos-animacion {
+
+  display: block;
+  width: 35%;
+  animation: girar 1s linear;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  margin-top: 4%;
+ 
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+p {
+  line-height: 1, 5;
+  padding: 5px;
+  color: rgb(2, 2, 2);
+  font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 30px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h4 {
+    font-size: 10px;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding-top: 15px;
+ }
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 15px;
+  }
+}
+
+.menu-central {
+  background: salmon;
+}
+
+.menu-central a {
+  text-decoration: none;
+  color: black;
+  background: salmon;
+  border: none;
+}
+
+.menu-central .col {
+  border: none;
+}
+
+
+.oneline {
+  display: inline;
+}
+
+.oneblock {
+  display: block;
+}
+
+@media (max-width: 480px) {
+  oneblock {
+    font-size: 10px;
+  }
+}
+
+.nopadding {
+  padding: 0;
+}
+
+
+
+@media (max-width: 480px) {
+  class1 {
+    font-size: 10px;
+    text-align: center;
+  }
+                          }
+
+/*<li> porque elegirnos, index */
+.porque-elegirnos-idex {
+font-size: 15px;              
+ padding: 2px;
+
+                        }
+                          
+                                                
+.enlace-index-holaempanadas {
+                              border-style: inset;
+                              margin: 5px 5px 5px 5px;
+                             background-color: rgb(255, 166, 107);
+                             color: rgb(0, 0, 0);
+                             font-size: 15px;
+                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            }
+
+.imagenes-sobres-los-sabores-empas-idex {
+  display: flex;
+  width: 13%;
+  margin-left: 1%;
+  margin-right: 10%;
+  margin: 10px 20px 20px 5px;
+}
+
+a { color:black}
+.class4 {
+  margin: 10px 20px 10px 20px;
+  border-style: inset;
+  background-color: rgb(255, 190, 106);
+  color: rgb(34, 34, 33);
+}
+
+h5 {
+  color: rgb(8, 8, 8);
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/*enlace anclado en el index, musica spotify*/
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+form {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+li {
+  line-height: 1, 5;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+}
+
+
+
+
+.texto {
+  align-self: baseline;
+  display: block;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.class10 {
+
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-child {
+  display: none;
+  background-color: skyblue;
+
+}
+
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+.col-sm-4 {
+  background-color: rgba(168, 162, 162, 0.473);
+}
+
+.img-header-animacion {
+  width: 9%;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+
+.container-fluid {
+  background-color: rgb(255, 166, 107);
+
+}
+
+
+/*carousel para el index, quienes somos, nuestro precios*/
+.carousel {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  width: 100%;
+}
+
+.carousel__item {
+  flex-shrink: 0;
+  width: 50%;
+  height: 300px;
+  scroll-snap-align: start;
+  margin-right: 10px;
+}
+
+.carousel__item img {
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagen-header {
+  width: 12%;
+  margin-left: 0px;
+
+}
+/*imagen de menu para todos los html*/
+.home-html {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotateZ(15deg);
+}
+
+/*Carousel para html de los distintos tipos de eventos*/
+.carousel-inner {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px 15px 15px;
+}
+
+/*estilo para las fotos de las experiencias en el html servicios*/
+
+.col-sm-4 {
+  border-radius: 50%;
+  text-align: center;
+}

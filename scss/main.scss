@@ -1,0 +1,62 @@
+
+/*Style html opciones veganas, aplicando sass*/  
+/* colores*/
+
+$letra-html-opcionesveganarianas:rgb(13, 14, 13);
+$margin-para-subtitulos:5px 5px 5px 5px;
+$padding-para-los-item-dentro-de-los-div:5px 5px 5px 5px;
+$bordesparalossubtitulos:border-style inset;
+$colordelborde: background-color green;
+
+  
+   h2 { font-size: 20px;
+       color:$letra-html-opcionesveganarianas,
+             $margin-para-subtitulos,
+             $bordesparalossubtitulos;
+       
+          }
+
+   h4 {color:$letra-html-opcionesveganarianas,
+             $margin-para-subtitulos,
+         }
+      
+    
+            div {
+               
+               
+              padding:$padding-para-los-item-dentro-de-los-div;
+              font-size: 1px;
+              color:$letra-html-opcionesveganarianas
+                  } 
+                
+  .inconvenientes {
+
+   font-size: 5px;
+  }          
+            
+.carousel-inner {
+   width: 75%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 15px 15px 15px 15px;
+}
+ div {
+
+ .inconv-dieta-veg {
+   font-size: 15px;
+   padding: 2px;
+   color: rgb(45, 44, 44);
+                   }
+
+ .benef-dieta-veg {
+     
+   font-size: 15px;
+   padding: 2px;
+   color: rgb(45, 44, 44);
+                 }
+ 
+     }
+
+
+

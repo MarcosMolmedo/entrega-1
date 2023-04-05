@@ -1,0 +1,27 @@
+{
+  "name": "sass_prueba",
+  "version": "1.0.0",
+  "description": "probandosass",
+  "main": "index.html`",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch styles/style.scss  styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.59.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosMolmedo/entrega-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcosMolmedo/entrega-1/issues"
+  },
+  "homepage": "https://github.com/MarcosMolmedo/entrega-1#readme"
+}
