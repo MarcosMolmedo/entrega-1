@@ -322,7 +322,10 @@ li {
 
 /*estilo para las fotos de las experiencias en el html servicios*/
 
-.col-sm-4 {
+.col-sm-4{
   border-radius: 50%;
   text-align: center;
 }
+
+
+
